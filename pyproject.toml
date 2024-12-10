@@ -1,7 +1,7 @@
 [tool.poetry]
-name = "griptape_black_forest"
+name = "griptape-bria"
 version = "0.1.0"
-description = "Griptape extension for Black Forest Labs"
+description = "Griptape extension for Bria"
 authors = ["Collin Dutter <collin@griptape.ai>"]
 readme = "README.md"
 packages = [
@@ -10,7 +10,7 @@ packages = [
 
 [tool.poetry.dependencies]
 python = "^3.9"
-griptape = "^0.34.0"
+griptape = "^1.0.0"
 pillow = "^11.0.0"
 
 [tool.poetry.group.test]
